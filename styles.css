@@ -71,7 +71,7 @@ button:hover{
     margin-bottom: -1rem;
 }
 .carImg{
-    width: 100%;
+    max-width: 80%;
     height: 175px;
     object-fit: contain;
     border-radius: 50px;
@@ -109,6 +109,10 @@ button:hover{
       background-color: #c7c7c7;;
       align-items: center;
       text-align: center;
+      max-width: 50%;
+      padding: 10px 0;
+      margin-left: 25%;
+      border-radius: 10px;
   }
 
   .contact{
