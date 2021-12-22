@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <title>Vintage Car Hire</title>
+</head>
+<body>
+    <a id="top"></a>
+    <header>
+        <img src="images/logo.jpg" alt="logo" class="logo">
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="#Cars">Cars</a></li>
+                <li><a href="#Enquiries">Enquiries</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+        <a href="https://github.com/leevidalone/Vintage-Car-Website" class="cta" id="cta" target="_blank"><button>Github</button></a>
+    </header>
+    <br>
+    <h2 id="Cars">Vintage Cars For Hire</h2>
+    <br>
+    <div class="row">
+        <div class="column">
+            <div class="card">
+                <img src="images/vintageCar1.jpg" alt="Black Vintage Car" class="carImg">
+                <div class="container">
+                    <h4><b>Vintage Black Sedan</b></h4>
+                    <p>Used Car in Great Condition <br> <b>Car Type:</b> Sedan <br><b>Colour:</b> Black</p>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <img src="images/vintageCar2.jpg" alt="Aqua Vintage Car" class="carImg">
+                <div class="container">
+                    <h4><b>Aqua Vintage Car</b></h4>
+                    <p>Used Car in Decent Condition <br> <b>Car Type:</b> Beetle <br><b>Colour:</b> Aqua</p>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <img src="images/vintageCar3.jpg" alt="Yellow Vintage Car" class="carImg">
+                <div class="container">
+                    <h4><b>Yellow Vintage Car</b></h4>
+                    <p>Used Car in Nice Condition <br> <b>Car Type:</b> Convertible <br><b>Colour:</b> Yellow</p>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <img src="images/vintageCar4.jpg" alt="Old Vintage Car" class="carImg">
+                <div class="container">
+                    <h4><b>Teal Vintage Car</b></h4>
+                    <p>Used Car in Bad Condition <br> <b>Car Type:</b> Beetle <br><b>Colour:</b> Teal</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br><br>
+    <h2 id="Enquiries">Enquiries</h2><br>
+    <form class="enquires">
+        <label for="fullname"><b>Full name:</b></label><br>
+        <input type="text" name="fullname" id="fullname" required><br>
+        <label for="email"><b>Email Address:</b> </label><br>
+        <input type="email" name="email" id="email" required><br>
+        <label for="cars" placeholder="Select"><b>Choose a Car:</b></label><br>
+        <select name="cars" id="cars" required>
+            <option disabled selected value> -- Select an Option -- </option>
+            <optgroup label="Sedan">
+                <option value="bSedan">Black Sedan</option>
+            </optgroup>
+            <optgroup label="Beetle">
+                <option value="tBeetle">Teal Beetle</option>
+                <option value="aBeetle">Aqua Beetle</option>
+            </optgroup>
+            <optgroup label="Convertible">
+                <option value="yConvertible">Yellow Convertible</option>
+            </optgroup><br>
+        </select><br>
+        <label for="comments"><b>Comments:</b></label><br>
+        <textarea name="comments" id="comments" cols="50" rows="5"></textarea><br>
+
+        <a href="#" class="submit"><button>Submit</button></a>
+    </form>
+    <div class="contact">
+        <h2 id="Contact">Contact</h2>
+            <p>Vintage Car Hires (But its really just Car City)</p>
+            <p>415/473 Maroondah Hwy, Ringwood VIC 3134</p>
+            <p>0418 455 955</p><br>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d403631.06184966693!2d144.70903848122643!3d-37.781422425661525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad63a4752986ad5%3A0xf9d24327b74319e7!2sCar%20City%20Ringwood!5e0!3m2!1sen!2sau!4v1640136715760!5m2!1sen!2sau" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+        
+        
+        <footer>
+            <p>Created by David Lee. © 2021</p>
+            <a href="#top"><button>Back To Top</button></a>
+        </footer>
+</body>
+</html>
